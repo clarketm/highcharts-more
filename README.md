@@ -3,7 +3,7 @@
 The universal **highcharts-more** module. This module can be loaded as an ES6, AMD, CommonJS or global module, in NodeJS or in the browser. It works with most modern module loaders ([ES6](https://github.com/ModuleLoader/es6-module-loader), [RequireJS](https://github.com/requirejs/requirejs), [SystemJS](https://github.com/systemjs/systemjs)). This package is generated based on the [highcharts v4.2.5](https://github.com/highcharts/highcharts/releases/tag/v4.2.5) release.
 > [highcharts-more](https://www.npmjs.com/package/highcharts-more-node) requires the [highcharts](https://www.npmjs.com/package/highcharts) module
 
-### What is Highcharts-More?
+### What is Highcharts?
 [Highcharts JS](http://www.highcharts.com/) is a JavaScript charting library based on SVG, with fallbacks to VML and canvas for old browsers. To avoid bloating the Highcharts core library, the Highcharts team deploy new chart types and features in a separate file called [highcharts-more.js](https://github.com/highcharts/highcharts-dist/blob/master/highcharts-more.js). In short, highcharts-more is extra functionality on top of Highcharts without modifying it's core code. It also allows you to use some charts types which don't exist in the "original" highcharts such as bubble, range, gauge and pollar charts.
 
 
