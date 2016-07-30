@@ -15,7 +15,7 @@ The universal **highcharts-more** module. This module can be loaded as an ES6, A
 First, install the [highcharts](https://www.npmjs.com/package/highcharts) and [highcharts-more](https://github.com/clarketm/highcharts-more) packages.
 ```js
 jspm install npm:highcharts
-jspm install npm:highcharts-more
+jspm install npm:highcharts-more-node // or => jspm install github:clarketm/highcharts-more
 ```
 
 Now import highcharts-more into your projects **after** the core highcharts module.
