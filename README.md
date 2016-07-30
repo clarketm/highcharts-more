@@ -13,9 +13,10 @@ The universal **highcharts-more** module. This module can be loaded as an ES6, A
 > **Tip:** importing [highcharts-more](https://github.com/clarketm/highcharts-more) using the **global** module format will suffice for most applications ([example below]()). 
 
 First, install the [highcharts](https://www.npmjs.com/package/highcharts) and [highcharts-more](https://github.com/clarketm/highcharts-more) packages.
-```js
-jspm install npm:highcharts
-jspm install npm:highcharts-more
+
+```shell
+$ jspm install npm:highcharts
+$ jspm install npm:highcharts-more
 ```
 
 Now import highcharts-more into your projects **after** the core highcharts module.
@@ -45,8 +46,7 @@ export class GaugeChartExample {
 }
 ```
 
-
-##### Helpful links
+#### Helpful links
 
 * Official website:  [www.highcharts.com](http://www.highcharts.com)
 * Download page: [www.highcharts.com/download](http://www.highcharts.com/download)
