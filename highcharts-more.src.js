@@ -15,7 +15,7 @@
         // Node, CommonJS-like
         module.exports = function (root, Highcharts) {
             if (Highcharts === undefined) {
-                Highcharts = typeof window !== 'undefined' ? require('Highcharts') : require('Highcharts')(root);
+                Highcharts = typeof window !== 'undefined' ? require('highcharts') : require('highcharts')(root);
             }
             return factory(Highcharts);
         };
