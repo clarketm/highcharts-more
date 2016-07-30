@@ -1,0 +1,44 @@
+{
+  "name": "highcharts-more",
+  "version": "v1.0.0",
+  "description": "JavaScript charting framework extension module",
+  "authors": [
+    "clarketm <travis.m.clarke@gmail.com>"
+  ],
+  "main": "highcharts-more.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarketm/highcharts-more"
+  },
+  "keywords": [
+    "charts",
+    "dataviz",
+    "graphs",
+    "visualization",
+    "data",
+    "browserify",
+    "webpack",
+    "systemjs",
+    "jspm",
+    "node",
+    "highcharts",
+    "highcharts-more",
+    "module"
+  ],
+  "bugs": "https://github.com/clarketm/highcharts-more/issues",
+  "license": "https://www.highcharts.com/license",
+  "homepages": [
+    "https://www.travismclarke.com",
+    "http://www.highcharts.com"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highcharts": "^4.2.5"
+  }
+}
