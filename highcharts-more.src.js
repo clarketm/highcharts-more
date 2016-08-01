@@ -13,12 +13,7 @@
         define(['highcharts'], factory);
     } else if (typeof exports === 'object') {
         // Node, CommonJS-like
-        module.exports = function (root, Highcharts) {
-            if (Highcharts === undefined) {
-                Highcharts = typeof window !== 'undefined' ? require('highcharts') : require('highcharts')(root);
-            }
-            return factory(Highcharts);
-        };
+        module.exports = factory(require("highcharts"));
     } else {
         // Browser globals (root is window)
         return factory(root.Highcharts)
