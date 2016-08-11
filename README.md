@@ -8,9 +8,7 @@ The universal **highcharts-more** module. This module can be loaded as an ES6, A
 
 
 ### Example Usage in Node using SystemJS and jspm
-*Please note that there are several ways to use Highcharts. For general installation instructions, see [the docs](http://www.highcharts.com/docs/getting-started/installation).*
-
-> **Tip:** importing [highcharts-more](https://www.npmjs.com/package/highcharts-more-node) using the **global** module format will suffice for most applications ([example below]()). 
+> Please note that there are several ways to use Highcharts. For general installation instructions, see [the docs](http://www.highcharts.com/docs/getting-started/installation).
 
 First, install the [highcharts](https://www.npmjs.com/package/highcharts) and [highcharts-more](https://www.npmjs.com/package/highcharts-more-node) packages.
 ```bash
