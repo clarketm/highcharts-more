@@ -6,14 +6,17 @@ The universal **highcharts-more** module. This module can be loaded as an ES6, A
 ### What is Highcharts?
 [Highcharts JS](http://www.highcharts.com/) is a JavaScript charting library based on SVG, with fallbacks to VML and canvas for old browsers. To avoid bloating the Highcharts core library, the Highcharts team deploy new chart types and features in a separate file called [highcharts-more.js](https://github.com/highcharts/highcharts-dist/blob/master/highcharts-more.js). In short, highcharts-more is extra functionality on top of Highcharts without modifying it's core code. It also allows you to use some charts types which don't exist in the "original" highcharts such as bubble, range, gauge and pollar charts.
 
+### Installation
+```bash
+$ npm install highcharts-more-node
+```
 
-### Example Usage in Node using SystemJS and jspm
+### Example Usage
 > Please note that there are several ways to use Highcharts. For general installation instructions, see [the docs](http://www.highcharts.com/docs/getting-started/installation).
 
 First, install the [highcharts](https://www.npmjs.com/package/highcharts) and [highcharts-more](https://www.npmjs.com/package/highcharts-more-node) packages.
 ```bash
-$ jspm install npm:highcharts
-$ jspm install npm:highcharts-more-node   # or => jspm install github:clarketm/highcharts-more
+$ npm install highcharts-more-node
 ```
 
 Now import highcharts-more into your projects **after** the core highcharts module.
