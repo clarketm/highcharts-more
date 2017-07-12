@@ -1,6 +1,6 @@
 # Highcharts-More
 
-The universal **highcharts-more** module. This module can be loaded as an ES6, AMD, CommonJS or global module, in NodeJS or in the browser. It works with most modern module loaders ([ES6](https://github.com/ModuleLoader/es6-module-loader), [RequireJS](https://github.com/requirejs/requirejs), [SystemJS](https://github.com/systemjs/systemjs)). This package is generated based on the [highcharts v4.2.5](https://github.com/highcharts/highcharts/releases/tag/v4.2.5) release.
+The universal **highcharts-more** module. This module can be loaded as an ES6, AMD, CommonJS or global module, in NodeJS or in the browser. It works with most modern module loaders ([ES6](https://github.com/ModuleLoader/es6-module-loader), [RequireJS](https://github.com/requirejs/requirejs), [SystemJS](https://github.com/systemjs/systemjs)). This package is generated based on the [highcharts v5.0.12](https://github.com/highcharts/highcharts/releases/tag/v5.0.12) release.
 > [highcharts-more](https://www.npmjs.com/package/highcharts-more-node) requires the [highcharts](https://www.npmjs.com/package/highcharts) module
 
 ### What is Highcharts?

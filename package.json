@@ -1,6 +1,6 @@
 {
   "name": "highcharts-more-node",
-  "version": "v1.0.2",
+  "version": "v5.0.12",
   "description": "JavaScript charting framework extension module",
   "authors": [
     "clarketm <travis.m.clarke@gmail.com>"
@@ -39,6 +39,6 @@
     "tests"
   ],
   "dependencies": {
-    "highcharts": "^4.2.7"
+    "highcharts": "^5.0.12"
   }
 }
