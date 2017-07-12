@@ -19,7 +19,7 @@ First, install the [highcharts](https://www.npmjs.com/package/highcharts) and [h
 $ npm install highcharts-more-node
 ```
 
-Now import highcharts-more into your projects **after** the core highcharts module.
+Now import highcharts-more into your projects which will also import the **highcharts** core module.
 ```js
 // import Highcharts-More (no need to import `highcharts` since it's wrapped by `highcharts-more`)
 import {Highcharts} from 'highcharts-more-node'
